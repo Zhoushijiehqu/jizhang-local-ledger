@@ -1,0 +1,31 @@
+{
+  "name": "jizhang-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "记账 · 本地 Web 应用（数据 100% 存本地，无云端、无账号）",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "verify": "tsx src/verify/run.ts",
+    "serve": "python3 -m http.server 8787 --directory dist",
+    "verify:upgrade": "tsx src/verify/upgrade.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sql.js": "^1.10.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.3",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/sql.js": "^1.4.9",
+    "@vitejs/plugin-react": "^4.3.4",
+    "puppeteer-core": "^25.11.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

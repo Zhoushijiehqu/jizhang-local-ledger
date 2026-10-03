@@ -1,0 +1,17 @@
+{
+  "name": "jizhang-desktop",
+  "productName": "记账",
+  "version": "1.1.1",
+  "private": true,
+  "description": "本地记账桌面软件",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "package": "node package.cjs",
+    "install-app": "node install.cjs"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^44.5.1"
+  }
+}

@@ -1,0 +1,35 @@
+# Dependencies and build output
+**/node_modules/
+web/dist/
+JiZhang/.build/
+desktop/.stage/
+desktop/release/
+launcher/.build/
+
+# Local data, imports, backups, and generated evidence
+backups/
+imports/
+**/shots/
+docs/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.pdf
+*.log
+*.tmp
+.DS_Store
+
+# Local planning and working notes
+/task_plan.md
+/findings.md
+/progress.md
+/技术方案.md
+/需求文档.md
+/desktop/check.cjs
+/desktop/upgrade-check.cjs
+
+# Local credentials/configuration
+.env
+.env.*
+!.env.example
